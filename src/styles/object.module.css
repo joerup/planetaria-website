@@ -1,0 +1,293 @@
+.background {
+    min-height: 100vh;
+    overflow: auto;
+    background-image: url("https://github.com/joerup2004/planetaria/blob/main/Images/StarrySky.png?raw=true");
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.columns {
+    padding-top: 25px;
+    width: 100vw;
+}
+
+.column1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #000001;
+    border-radius: 25px;
+}
+
+.column2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #000001;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 1251px) {
+    .columns {
+        display: flex;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    .column1 {
+        width: 35vw;
+    }
+    .column2 {
+        width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1001px) {
+    .columns {
+        display: flex;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .column1 {
+        width: 45vw;
+    }
+    .column2 {
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    .columns {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .column1 {
+        width: 80vw;
+    }
+    .column2 {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .columns {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .column1 {
+        width: 94vw;
+    }
+    .column2 {
+        width: 94vw;
+    }
+}
+
+.objectbackground {
+    background-color: #000001;
+    border-radius: 25px;
+}
+
+.headline {
+    justify-content: left;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headlinetext {
+    justify-content: left;
+}
+
+.objecttitle {
+    margin: 0;
+    width: 100% - 100px;
+    font-size: 5rem;
+    font-family: 'Helvetica';
+    color: #eeeeee;
+    justify-content: center;
+}
+
+.objectdesc {
+    margin: 0;
+    width: 100% - 100px;
+    font-size: 1.6rem;
+    font-family: 'Helvetica';
+    color: #999;
+    justify-content: center;
+}
+
+.objectimage {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paragraph {
+    margin: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Helvetica';
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
+.paragraph2 {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Helvetica';
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.helpButton {
+    display: flex;
+    padding-top: 10px;
+}
+.helpButton p {
+    background-color: #666;
+    margin: 0;
+    opacity: 0.5;
+    font-size: 20px;
+    color: #111;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+.helpButton p:hover {
+    background-color: #aaa;
+}
+
+.dropdown {
+  float: right;
+  display: flex;
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+
+.dropdowncontent {
+  display: none;
+  right: 0;
+  position: absolute;
+  font: 'Helvetica';
+  background-color: #111111;
+  border-radius: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1251px) {
+    .dropdowncontent {
+        width: 33vw;
+    }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1001px) {
+    .dropdowncontent {
+        width: 42vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    .dropdowncontent {
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .dropdowncontent {
+        width: 85vw;
+    }
+}
+
+.dropdowncontent h1 {
+  color: #ffffff;
+  font-size: 2.3rem;
+  font-weight: normal;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dropdowncontent h2 {
+  color: #dddddd;
+  font-size: 24px;
+  font-weight: normal;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.dropdowncontent p {
+  color: #aaaaaa;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.dropdowncontent a:hover {background-color: #777;}
+
+.dropdown:hover .dropdowncontent {display: block;}
+
+.propertySectionName {
+    width: 100%;
+    font-size: 2.3rem;
+    font-family: 'Helvetica';
+    color: #fff;
+}
+.propertySection {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.propertyRow {
+    font-family: 'Helvetica';
+    display: flex;
+    text-align: center;
+}
+
+.propertyName {
+    width: 60%;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    color: #999;
+    font-size: 27px;
+    text-align: left;
+}
+.property {
+    width: 40%;
+    padding-right: 20px;
+    color: #ddd;
+    font-size: 27px;
+    text-align: right;
+}
+
+.allmoonlink {
+    font-size: 2rem;
+    font-family: 'Helvetica';
+    color: #58c;
+    width: 100%;
+    text-align: center;
+}
+
+.nextDesc {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #aaa;
+    margin: 0;
+}

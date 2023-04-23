@@ -1,0 +1,245 @@
+.background {
+    min-height: 100vh;
+    overflow: auto;
+    background-image: url("https://github.com/joerup2004/planetaria/blob/main/Images/StarrySky.png?raw=true");
+    background-color: #222222;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headline {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    background-color: #000001;
+    border-radius: 25px;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1251px) {
+    .headline {
+        width: 55vw;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1250px) {
+    .headline {
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .headline {
+        width: 90vw;
+    }
+}
+
+.top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.toptext {
+    width: 100%;
+    text-align: left;
+}
+.tophorizontal {
+    width: 100%;
+    display: flex;
+}
+
+.row {
+    padding-top: 15px;
+    margin: 0;
+}
+
+.bigobjecttitle {
+    margin: 0;
+    font-size: 4rem;
+    display: flex;
+    font-family: 'Helvetica';
+    color: #eeeeee;
+}
+.bigobjecttitle img:hover {
+    opacity: 0.5;
+}
+
+.bigobjectdesc {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Helvetica';
+    color: #999;
+}
+
+.bigobjectimage {
+    min-width: 140px;
+    width: 140px;
+    height: 120px;
+    padding-right: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .bigobjectimage {
+        display: none;
+        width: 0px;
+    }
+}
+
+.paragraph {
+    font-family: 'Helvetica';
+    font-size: 1.5rem;
+    color: #ddd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+.title {
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: 'Helvetica';
+}
+  
+.section {
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 35px;
+    color: #ffffff;
+    font-family: 'Helvetica';
+    justify-content: left;
+}
+
+.objectrow {
+    display: flex;
+    height: 150px;
+    background-color: #000001;
+    border-radius: 25px;
+}
+.objectrow:hover {
+    background-color: #111112
+}
+
+.objectrow2 {
+    display: flex;
+    height: 150px;
+    background-color: #000001;
+    border-radius: 25px;
+    width: 100%;
+}
+.objectrow2:hover {
+    background-color: #111112
+}
+
+@media only screen and (min-width: 1251px) {
+    .objectrow {
+        width: 35vw;
+    }
+    .objecttitle {
+        max-width: 35vw - 200px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1001px) {
+    .objectrow {
+        width: 48vw;
+    }
+    .objecttitle {
+        max-width: 48vw - 200px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+    .objectrow {
+        width: 80vw;
+    }
+    .objecttitle {
+        max-width: 80vw - 200px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .objectrow {
+        width: 94vw;
+    }
+    .objecttitle {
+        max-width: 90vw - 200px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.objecttitle {
+    height: 150px;
+    padding-right: 15px;
+}
+
+.objecttitle h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    padding-top: 35px;
+    color: #eeeeee;
+}
+.objecttitle h2 {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: #eeeeee;
+}
+.objecttitle h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    color: #eeeeee;
+}
+
+.objecttitle p {
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    padding-top: 10px;
+    color: #999;
+    white-space: normal;
+}
+
+.objectimage {
+    height: 150px;
+    min-width: 150px;
+    width: 150px;
+    padding: 25px;
+}
+
+.searchBar {
+    width: 90%;
+}
+
+.searchBar input {
+    background-color: #020202;
+    height: 60px;
+    width: 98%;
+    text-align: left;
+    color: #777777;
+    border-color: #444;
+    border-style:double;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0;
+}
+
+.searchBar p {
+    color: #777777;
+    font-size: 18px;
+}
+
