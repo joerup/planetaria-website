@@ -15,7 +15,18 @@
 
 .image {
   height: 200px;
-  width: 200px;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+@media only screen and (max-width: 1200px) {
+  .image {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 70px;
+  }
 }
 
 .title {
@@ -25,15 +36,27 @@
   text-align: center;
 }
 
+.header {
+  color: #ffffff;
+  font-size: 40px;
+}
+
 .desc {
-  font-size: 20px;
+  font-size: 30px;
   color: #dedede;
   margin: 0px;
   padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-bottom: 30px;
   max-width: 1200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    font-size: 30px;
+  }
+  .desc {
+    font-size: 25px;
+  }
 }
 
 .title2 {
@@ -157,8 +180,14 @@
 }
 
 .download {
-  width: 300px;
-  margin: 30px;
+  width: 400px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   border-radius: 15px;
   box-shadow: 10px 10px 10px rgba(0, 0, 20, 0.4);
+}
+@media only screen and (max-width: 500px) {
+  .download {
+    width: 300px;
+  }
 }

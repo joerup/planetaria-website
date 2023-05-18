@@ -8,8 +8,7 @@ export default function Header({ props }) {
     <header className={styles.navbar}>
       <a href="/">
         <div className={styles.navleft}>
-          <img className={styles.logo} src="/images/Planetaria.png"/>
-          <p className={styles.title}>Planetaria</p>
+          <img className={styles.logo} src="/images/Logo.png"/>
         </div>
       </a>
 
