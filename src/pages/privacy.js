@@ -37,6 +37,7 @@ export default function About(props) {
             <br/><br/>
             </p>
             <h3 className={styles.title2}>What information do we collect?</h3>
+            <br/>
             <p>
             <b>None. We don't collect your data, period. </b> 
 
@@ -46,6 +47,7 @@ export default function About(props) {
             <br/><br/>
             </p>
             <h3 className={styles.title2}>Do we update this privacy policy?</h3>
+            <br/>
             <p>
             <b>We may update this privacy notice as necessary to stay compliant with relevant laws. </b> 
 
@@ -57,6 +59,7 @@ export default function About(props) {
             <br/><br/>
             </p>
             <h3 className={styles.title2}>How can you contact us about this policy?</h3>
+            <br/>
             <p>
             <b>If you have questions, comments, or concerns about Planetaria's privacy policy, please do not hesitate to reach out. </b>
                 

@@ -3,7 +3,6 @@
 .navbar {
   display: flex;
   position: fixed;
-  background-color: #000001;
   width: 100%;
   height: 70px;
   top: 0px;
@@ -43,7 +42,7 @@
   margin: 0;
 }
 .title:hover {
-  color: #bbb;
+  color: #aaeee0;
 }
 
 .rowItem {
@@ -57,7 +56,7 @@
   padding-left: 30px;
 }
 .rowItem:hover {
-  color: #bbb;
+  color: #aaeee0;
 }
 
 .dropbutton {
@@ -106,7 +105,9 @@
   display: block;
 }
 
-.dropdowncontent a:hover {background-color: #777;}
+.dropdowncontent a:hover {
+ color: #aaeee0;
+}
 
 .dropdown:hover .dropdowncontent {display: block;}
 

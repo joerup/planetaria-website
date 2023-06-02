@@ -17,9 +17,9 @@ export default function Header({ props }) {
         <div className={styles.dropdown}>
           <img className={styles.dropbutton} src="https://img.icons8.com/metro/26/ffffff/menu.png"/>
           <div className={styles.dropdowncontent}>
+            <a href="/">Home</a>
             <a href="/support">Support</a>
             <a href="/privacy">Privacy</a>
-            <a href="https://apps.apple.com/is/app/planetaria/id1546887479">App</a>
           </div>
         </div>
 
@@ -32,7 +32,6 @@ export default function Header({ props }) {
         <a href="/privacy">
           <p className={styles.rowItem}>Privacy</p>
         </a>
-        <a href="https://apps.apple.com/is/app/planetaria/id1546887479"><p className={styles.rowItem}>App</p></a>
         
       </div>
 
