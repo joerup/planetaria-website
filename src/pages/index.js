@@ -17,7 +17,7 @@ export default function Home(props) {
         <Header/>
         <br/><br/><br/><br/><br/><br/>
 
-        <img className={styles.image} src="/images/Planetaria.png"/>
+        {/* <img className={styles.image} src="/images/Planetaria.png"/> */}
 
         <div class={styles.column}>
             
